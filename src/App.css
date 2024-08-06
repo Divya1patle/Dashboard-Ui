@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yantramanav:wght@500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.MuiDrawer-paperAnchorLeft {
+  /* position: relative !important; */
+  height: 120% !important;
+}
+
+.MuiToolbar-gutters {
+  background-color: #41494a
+}
+
+.MuiPaper-elevation {
+  background-color: #41494a !important;
+
+}
+
+.MuiListItemIcon-root {
+  color: #fff !important;
+}
+
+.orders {
+  background-color: rgb(32 32 40) !important;
+  color: #fff;
+
+  border-radius: 6%;
+}
+
+.css-1w10rh9-MuiGauge-container text {
+  fill: #fff !important;
+}
+
+.icon {
+  color: blue;
+  background-color: #0013ff66;
+  padding: 2px;
+  border-radius: 20%;
+}
+
+.icon2 {
+  color: #30b767;
+  background-color: #1a8671;
+  padding: 2px;
+  border-radius: 20%;
+}
+
+.icon3 {
+  color: #633338;
+  background-color: #f25e5e91;
+  border-radius: 20%;
+  padding: 2px;
+}
+
+.back {
+  background-color: rgb(146 89 94 / 71%) !important;
+}
+
+.icon4 {
+  color: #dcb5cd;
+  background-color: #723d5a;
+  padding: 2px;
+  border-radius: 20%;
+}
+
+td img {
+  width: 12%;
+  border-radius: 50%;
+}
+
+.img {
+  width: 12%;
+  border-radius: 50%;
+}
+
+.btns {
+  border-radius: 40%;
+  width: 100%;
+  border: none;
+  background-color: #02b2af;
+}
+
+.btns-2 {
+  border-radius: 40%;
+  width: 100%;
+  border: none;
+  background-color: #d35454e6;
+  color: #ecbcbc;
+}
+
+.Licon {
+  color: #ad4e2c;
+  background-color: #ad4e2c8c;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+.Licon2 {
+  color: blue;
+  background-color: #0013ff66;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  display: none !important;
+}
+
+.Licon3 {
+  color: #4b8eb2;
+  background-color: #224a62;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+@media (max-width:896px) and (min-width:375px) {
+  .orders {
+    background-color: rgb(32 32 40) !important;
+    color: #fff;
+    border-radius: 6%;
+    width: 56%;
+    margin-left: 23%;
+  }
+
+  .back {
+    margin-left: 10%;
+  }
+
+  .table-back {
+    margin-left: 12%;
+  }
+}
